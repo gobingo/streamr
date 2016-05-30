@@ -1,0 +1,15 @@
+server:
+    port: 8888
+
+management:
+    context-path: /app
+
+info:
+    app:
+        name: streamr
+        description: Twitter streamer app
+
+logging:
+    level:
+        org.apache.spark: 'ERROR'
+        org.apache.hadoop: 'ERROR'
